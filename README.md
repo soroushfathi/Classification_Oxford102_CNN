@@ -16,7 +16,8 @@ The project is divided into two main phases:
 
 ## Dataset
 
-The Oxford Flowers dataset contains images of 102 flower categories. For this project, we divide the dataset as follows:
+The Oxford Flowers dataset contains images of 102 flower categories. Data will be downloaded while running the notebook. 
+For this project, we divide the dataset as follows:
 - **A dataset**: First 80 classes.
 - **B dataset**: Remaining 20 classes.
 
