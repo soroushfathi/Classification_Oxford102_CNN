@@ -27,7 +27,8 @@ The CNN architecture consists of several convolutional layers followed by poolin
 - **Convolutional layers**: Use 3x3 kernels, stride of 1, and padding of 1. Each convolutional layer is followed by batch normalization and ReLU activation.
 - **Pooling layers**: Max pooling layers are used to reduce the spatial dimensions.
 - **Fully connected layer**: The final layer flattens the input and maps it to the output classes.
-  <img src="./readmi images/2.png" width="90%" height="90%">
+
+<img src="./readmi images/2.png" width="90%" height="90%">
 
 ## Implementation
 
@@ -41,7 +42,9 @@ The CNN architecture consists of several convolutional layers followed by poolin
 The second phase involves three methods for fine-tuning the network to classify the `B dataset`:
 1. **Method 1**: Train the new network normally using the `B dataset`.
 2. **Method 2**: Freeze all layers except the last fully connected layer and train using the `B dataset`.
+<img src="./readmi images/5-2.png" width="40%" height="40%">
 3. **Method 3**: Freeze all layers except the last 20 neurons of the fully connected layer and train using the `B dataset`.
+<img src="./readmi images/5-1.png" width="40%" height="40%">
 
 ## Jupyter Notebook
 
