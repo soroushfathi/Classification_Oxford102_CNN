@@ -9,7 +9,7 @@ The project is divided into two main phases:
 1. **Phase 1**: Train a CNN on the first 80 classes of the Oxford Flowers dataset (`A dataset`), then evaluate the model on the same dataset.
   <img src="./readmi images/1.png" width="40%" height="40%">
 
-3. **Phase 2**: Use the trained network to classify the additional 20 classes (`B dataset`). This phase includes several strategies to handle the limited data available for the new classes.
+2. **Phase 2**: Use the trained network to classify the additional 20 classes (`B dataset`). This phase includes several strategies to handle the limited data available for the new classes.
   <img src="./readmi images/3.png" width="40%" height="40%">
 
 ## Dataset
@@ -28,7 +28,7 @@ The CNN architecture consists of several convolutional layers followed by poolin
 - **Pooling layers**: Max pooling layers are used to reduce the spatial dimensions.
 - **Fully connected layer**: The final layer flattens the input and maps it to the output classes.
 
-<img src="./readmi images/2.png" width="90%" height="90%">
+  <img src="./readmi images/2.png" width="90%" height="90%">
 
 ## Implementation
 
@@ -42,9 +42,9 @@ The CNN architecture consists of several convolutional layers followed by poolin
 The second phase involves three methods for fine-tuning the network to classify the `B dataset`:
 1. **Method 1**: Train the new network normally using the `B dataset`.
 2. **Method 2**: Freeze all layers except the last fully connected layer and train using the `B dataset`.
-<img src="./readmi images/5-2.png" width="40%" height="40%">
+  <img src="./readmi images/5-2.png" width="40%" height="40%">
 3. **Method 3**: Freeze all layers except the last 20 neurons of the fully connected layer and train using the `B dataset`.
-<img src="./readmi images/5-1.png" width="40%" height="40%">
+  <img src="./readmi images/5-1.png" width="40%" height="40%">
 
 ## Jupyter Notebook
 
