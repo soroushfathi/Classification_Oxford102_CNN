@@ -44,10 +44,12 @@ The CNN architecture consists of several convolutional layers followed by poolin
 The second phase involves three methods for fine-tuning the network to classify the `B dataset`:
 1. **Method 1**: Train the new network normally using the `B dataset`.
 2. **Method 2**: Freeze all layers except the last fully connected layer and train using the `B dataset`.
-  <img src="./readmi images/5-2.png" width="40%" height="40%">
+
+   <img src="./readmi images/5-2.png" width="40%" height="40%">
   
 3. **Method 3**: Freeze all layers except the last 20 neurons of the fully connected layer and train using the `B dataset`.
-  <img src="./readmi images/5-1.png" width="40%" height="40%">
+
+   <img src="./readmi images/5-1.png" width="40%" height="40%">
 
 ## Jupyter Notebook
 
