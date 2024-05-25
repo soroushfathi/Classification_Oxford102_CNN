@@ -7,10 +7,10 @@ This project is aiming to classify images of flowers from the Oxford Flowers dat
 The project is divided into two main phases:
 
 1. **Phase 1**: Train a CNN on the first 80 classes of the Oxford Flowers dataset (`A dataset`), then evaluate the model on the same dataset.
-  <img src="./readmi images/1.png" width="40%" height="40%">
+  <img src="./readmi images/1.png" width="50%" height="50%">
 
 2. **Phase 2**: Use the trained network to classify the additional 20 classes (`B dataset`). This phase includes several strategies to handle the limited data available for the new classes.
-  <img src="./readmi images/3.png" width="40%" height="40%">
+  <img src="./readmi images/3.png" width="50%" height="50%">
 
 ## Dataset
 
@@ -69,6 +69,7 @@ Below is a summary of the optimal parameters and the corresponding achieved accu
   - **Learning Rate**: 0.0005
   - **Number of Epochs**: 30
 - **Accuracy**: Achieved 71% test accuracy with the optimal parameters.
+<img src="./readmi images/11.png" width="50%" height="50%">
 
 ### Phase 2: Dataset B
 #### Section 1: No Weight Constraints
