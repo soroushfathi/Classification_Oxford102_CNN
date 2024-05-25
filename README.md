@@ -30,7 +30,7 @@ The CNN architecture consists of several convolutional layers followed by poolin
 - **Pooling layers**: Max pooling layers are used to reduce the spatial dimensions.
 - **Fully connected layer**: The final layer flattens the input and maps it to the output classes.
 
-<img src="./readmi images/2.png" width="90%" height="90%">
+<img src="./readmi images/2.png" width="100%" height="100%">
 
 ## Implementation
 
@@ -73,7 +73,8 @@ Below is a summary of the optimal parameters and the corresponding achieved accu
   - **Learning Rate**: 0.0005
   - **Number of Epochs**: 30
 - **Accuracy**: Achieved 71% test accuracy with the optimal parameters.
-<img src="./readmi images/11-1.png" width="80%" height="80%">
+
+  <img src="./readmi images/11-1.png" width="90%" height="90%">
 
 ### Phase 2: Dataset B
 #### Section 1: No Weight Constraints
