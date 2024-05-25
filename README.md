@@ -73,7 +73,7 @@ Below is a summary of the optimal parameters and the corresponding achieved accu
   - **Learning Rate**: 0.0005
   - **Number of Epochs**: 30
 - **Accuracy**: Achieved 71% test accuracy with the optimal parameters.
-<img src="./readmi images/11.png" width="50%" height="50%">
+<img src="./readmi images/11.png" width="80%" height="80%">
 
 ### Phase 2: Dataset B
 #### Section 1: No Weight Constraints
