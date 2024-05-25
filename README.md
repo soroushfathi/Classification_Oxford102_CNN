@@ -7,10 +7,10 @@ This project is aiming to classify images of flowers from the Oxford Flowers dat
 The project is divided into two main phases:
 
 1. **Phase 1**: Train a CNN on the first 80 classes of the Oxford Flowers dataset (`A dataset`), then evaluate the model on the same dataset.
-<img src="./readmi images/1.png" width="40%" height="40%">
+  <img src="./readmi images/1.png" width="40%" height="40%">
 
 3. **Phase 2**: Use the trained network to classify the additional 20 classes (`B dataset`). This phase includes several strategies to handle the limited data available for the new classes.
-<img src="./readmi images/1.png" width="30%" height="30%">
+  <img src="./readmi images/1.png" width="40%" height="40%">
 
 ## Dataset
 
@@ -27,6 +27,7 @@ The CNN architecture consists of several convolutional layers followed by poolin
 - **Convolutional layers**: Use 3x3 kernels, stride of 1, and padding of 1. Each convolutional layer is followed by batch normalization and ReLU activation.
 - **Pooling layers**: Max pooling layers are used to reduce the spatial dimensions.
 - **Fully connected layer**: The final layer flattens the input and maps it to the output classes.
+  <img src="./readmi images/2.png" width="60%" height="60%">
 
 ## Implementation
 
