@@ -49,35 +49,15 @@ The second phase involves three methods for fine-tuning the network to classify 
 
 ## Jupyter Notebook
 
-The `DataLoader Demo.ipynb` notebook contains the following:
+The `CNN_classification.ipynb` notebook contains the following:
 - Data loading and preprocessing.
 - Network architecture definition.
 - Training and evaluation functions.
 - Visualization of training progress and evaluation metrics.
 
-## Usage
-
-### Requirements
-
-- Python 3.10
-- PyTorch
-- Jupyter Notebook
-- Other dependencies as listed in `requirements.txt`
-
-### Installation
-
-To run the project, ensure you have Python installed along with the necessary libraries. You can install the required packages using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Results
 
 The performance of the model is evaluated based on accuracy and loss for both the `A` and `B` datasets. Detailed results and comparisons between different methods are included in document.txt file.
-Certainly! Here is an improved version of your header and introductory sentence:
-
----
 
 ## Optimal Parameters and Achieved Accuracy
 
@@ -118,9 +98,23 @@ Below is a summary of the optimal parameters and the corresponding achieved accu
   - **Optimizer**: SGD
 - **Accuracy**: Learning rate of 0.0002 provided the best performance for partially frozen layers.
 
----
+## Usage
 
-You can use this section to clearly communicate the results of your parameter tuning and accuracy outcomes.
+### Requirements
+
+- Python 3.10
+- PyTorch
+- Jupyter Notebook
+- Other dependencies as listed in `requirements.txt`
+
+### Installation
+
+To run the project, ensure you have Python installed along with the necessary libraries. You can install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Conclusion
 
 This project demonstrates the effectiveness of different strategies for training deep neural networks on a limited dataset. By leveraging transfer learning and fine-tuning techniques, the model achieves good performance on the additional classes in the `B dataset`.
