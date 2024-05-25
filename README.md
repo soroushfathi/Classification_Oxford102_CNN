@@ -10,7 +10,7 @@ The project is divided into two main phases:
   <img src="./readmi images/1.png" width="40%" height="40%">
 
 3. **Phase 2**: Use the trained network to classify the additional 20 classes (`B dataset`). This phase includes several strategies to handle the limited data available for the new classes.
-  <img src="./readmi images/1.png" width="40%" height="40%">
+  <img src="./readmi images/3.png" width="40%" height="40%">
 
 ## Dataset
 
@@ -27,7 +27,7 @@ The CNN architecture consists of several convolutional layers followed by poolin
 - **Convolutional layers**: Use 3x3 kernels, stride of 1, and padding of 1. Each convolutional layer is followed by batch normalization and ReLU activation.
 - **Pooling layers**: Max pooling layers are used to reduce the spatial dimensions.
 - **Fully connected layer**: The final layer flattens the input and maps it to the output classes.
-  <img src="./readmi images/2.png" width="60%" height="60%">
+  <img src="./readmi images/2.png" width="90%" height="90%">
 
 ## Implementation
 
