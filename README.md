@@ -66,8 +66,53 @@ pip install -r requirements.txt
 
 ## Results
 
-The performance of the model is evaluated based on accuracy and loss for both the `A` and `B` datasets. Detailed results and comparisons between different methods in Phase 2 are included in the notebook.
+The performance of the model is evaluated based on accuracy and loss for both the `A` and `B` datasets. Detailed results and comparisons between different methods are included in document.txt file.
+Certainly! Here is an improved version of your header and introductory sentence:
 
+---
+
+## Optimal Parameters and Achieved Accuracy
+
+Below is a summary of the optimal parameters and the corresponding achieved accuracy for each phase of the project:
+
+### Phase 1: Dataset A
+- **Optimal Parameters**:
+  - **Batch Size**: 250
+  - **Learning Rate**: 0.0005
+  - **Number of Epochs**: 30
+- **Accuracy**: Achieved 71% test accuracy with the optimal parameters.
+
+### Phase 2: Dataset B
+#### Section 1: No Weight Constraints
+- **Optimal Parameters**:
+  - **Batch Size**: 250
+  - **Learning Rate**: 0.0003
+  - **Number of Epochs**: 60
+  - **Momentum**: 0.9
+  - **Optimizer**: SGD
+- **Accuracy**: Best test accuracy achieved with these parameters.
+
+#### Section 2: Frozen Convolutional Layers
+- **Optimal Parameters**:
+  - **Batch Size**: 250
+  - **Learning Rate**: 0.0003
+  - **Number of Epochs**: 60
+  - **Momentum**: 0.9
+  - **Optimizer**: SGD
+- **Accuracy**: Similar to Section 1, best test accuracy with SGD outperforming Adam.
+
+#### Section 3: Partially Frozen Layers
+- **Optimal Parameters**:
+  - **Batch Size**: 250
+  - **Learning Rate**: 0.0002
+  - **Number of Epochs**: 60
+  - **Momentum**: 0.9
+  - **Optimizer**: SGD
+- **Accuracy**: Learning rate of 0.0002 provided the best performance for partially frozen layers.
+
+---
+
+You can use this section to clearly communicate the results of your parameter tuning and accuracy outcomes.
 ## Conclusion
 
 This project demonstrates the effectiveness of different strategies for training deep neural networks on a limited dataset. By leveraging transfer learning and fine-tuning techniques, the model achieves good performance on the additional classes in the `B dataset`.
