@@ -7,9 +7,9 @@ This project is aiming to classify images of flowers from the Oxford Flowers dat
 The project is divided into two main phases:
 
 1. **Phase 1**: Train a CNN on the first 80 classes of the Oxford Flowers dataset (`A dataset`), then evaluate the model on the same dataset.
-[phase1 network](./readmi images/1.png)
+![phase1 network](./readmi images/1.png)
 2. **Phase 2**: Use the trained network to classify the additional 20 classes (`B dataset`). This phase includes several strategies to handle the limited data available for the new classes.
-
+![phase2 network](./readmi images/3.png)
 ## Dataset
 
 The Oxford Flowers dataset contains images of 102 flower categories. For this project, we divide the dataset as follows:
