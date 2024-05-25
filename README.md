@@ -1,4 +1,4 @@
-# CNN Oxford Flowers Classification Project
+# CNN Oxford Flowers Classification
 
 This project is aiming to classify images of flowers from the Oxford Flowers dataset using deep convolutional neural networks (CNNs). The project involves multiple phases, including dataset preparation, network training, and evaluation.
 
